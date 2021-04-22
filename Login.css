@@ -1,0 +1,84 @@
+
+body {
+    background-image: url(download2.jfif);
+    background-repeat:no-repeat;
+    background-size:cover ;
+}
+.div1{
+    margin:100px;
+    background-color:#e9c1a0;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 90px;
+    border: 3px solid green;
+    padding: 150px;
+}
+
+
+
+
+.div2 .image {
+    background: url("download.jfif")
+    no-repeat;
+    width: 65px;
+    height: 65px;
+    border:2px solid rgb(105, 174, 230);
+}
+
+.div2 .text {
+    font-family:verdana;
+    font-size: x-large;
+}
+
+.div2 .image,
+.div2 .text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    /*padding: 12px 20px;*/
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.logo{
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+
+}
+.name{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin-left: 100px;
+    border: none;
+    cursor: pointer;
+    height:35px;
+    width:85px
+}
+.div2 {
+    margin: 0 auto;
+}
+button:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width:200px) {
+    span.psw {
+        display: block;
+        float: none;
+    }}
